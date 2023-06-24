@@ -921,6 +921,7 @@ GameObject:
   - component: {fileID: 276351839}
   - component: {fileID: 276351841}
   - component: {fileID: 276351840}
+  - component: {fileID: 276351842}
   m_Layer: 5
   m_Name: MapBlocks (9)
   m_TagString: Untagged
@@ -986,6 +987,32 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 276351838}
   m_CullTransparentMesh: 1
+--- !u!61 &276351842
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276351838}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -35.61145, y: 26.525229}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 229.8042, y: 45.329388}
+  m_EdgeRadius: 0
 --- !u!1 &302126617
 GameObject:
   m_ObjectHideFlags: 0
@@ -1493,6 +1520,7 @@ GameObject:
   - component: {fileID: 375548119}
   - component: {fileID: 375548121}
   - component: {fileID: 375548120}
+  - component: {fileID: 375548122}
   m_Layer: 5
   m_Name: MapBlocks (8)
   m_TagString: Untagged
@@ -1558,6 +1586,32 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 375548118}
   m_CullTransparentMesh: 1
+--- !u!61 &375548122
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 375548118}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 184.11546, y: 25.839136}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 330.79703, y: 46.298176}
+  m_EdgeRadius: 0
 --- !u!1 &396800198
 GameObject:
   m_ObjectHideFlags: 0
@@ -2131,6 +2185,18 @@ PrefabInstance:
     - target: {fileID: 2447180220833652950, guid: a083a95ea32a30141974fc1791097d8e, type: 3}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2447180220833652950, guid: a083a95ea32a30141974fc1791097d8e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.66412
+      objectReference: {fileID: 0}
+    - target: {fileID: 2447180220833652950, guid: a083a95ea32a30141974fc1791097d8e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.66412
+      objectReference: {fileID: 0}
+    - target: {fileID: 2447180220833652950, guid: a083a95ea32a30141974fc1791097d8e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.66412
       objectReference: {fileID: 0}
     - target: {fileID: 2447180220833652950, guid: a083a95ea32a30141974fc1791097d8e, type: 3}
       propertyPath: m_LocalPosition.x
