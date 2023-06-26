@@ -31,4 +31,9 @@ public class SceneMan : MonoBehaviour
     {
         SceneManager.LoadScene("GameScene");
     }
+
+    public void HTP()
+    {
+        SceneManager.LoadScene("HowToPlay");
+    }
 }
